@@ -13,6 +13,7 @@ namespace test
         }
 
         [TestMethod]
+        [TestCategory("inttest")]
         public void TestMethod2()
         {
             Assert.AreEqual(1, 1);
